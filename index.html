@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Nyan Kat</title>
+  </head>
+  <body>
+    <div id="SPACEMAN">
+      <img id="Spacedude" src="/images/SPACE.webp" alt="" />
+      <img src="/images/CatJam.gif" id="CatJamming" alt="" />
+    </div>
+    <div class="YOUDIED">
+      <button class="RestartButton" id="RButton" disabled onclick="resetGame()">
+        Reset
+      </button>
+      <img
+        src="/images/YOUDIED.gif"
+        class="YOUDED"
+        alt="YOUDIED"
+        id="udedimg"
+      />
+      <div id="YourFinalScore"></div>
+    </div>
+    <div id="app"></div>
+    <div id="points"><p id="scoretxt">Score: 0</p></div>
+    <div class="Buttons">
+      <button class="PlayButton" id="pley" onclick="PlayButtonStuff()">
+        Play
+      </button>
+      <script src="js/data.js"></script>
+      <script src="js/Enemy.js"></script>
+      <script src="js/Gun.js"></script>
+      <script src="js/Player.js"></script>
+      <script src="js/engine-utilities.js"></script>
+      <script src="js/Engine.js"></script>
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>

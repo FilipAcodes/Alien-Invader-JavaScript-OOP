@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+}
+#points {
+  position: absolute;
+  z-index: 101;
+  background-color: purple;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  height: 156px;
+  width: 1275px;
+  font-size: 49px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -1px;
+  border: 1px white solid;
+}
+
+.Buttons {
+  position: absolute;
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  left: 554px;
+  margin-top: -475px;
+  margin-left: 750px;
+  cursor: pointer;
+}
+
+.PlayButton {
+  font-family: "Courier New", Courier, monospace;
+  padding: 15px;
+  width: 135px;
+  background-color: green;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 27px;
+  transition: ease-in-out 0.3s;
+}
+
+.RestartButton {
+  font-family: "Courier New", Courier, monospace;
+  padding: 15px;
+  width: 135px;
+  font-weight: bold;
+  color: red;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 27px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  display: none;
+  z-index: 350;
+  position: absolute;
+}
+
+.PlayButton:hover {
+  background-color: aliceblue;
+  color: purple;
+  cursor: pointer;
+}
+
+.RestartButton:hover {
+  cursor: pointer;
+  background-color: red;
+  color: aqua;
+}
+
+.YOUDIED {
+  position: absolute;
+  z-index: 300;
+}
+
+.YOUDED {
+  z-index: 301;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
+#YourFinalScore {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  left: 121px;
+  top: 1px;
+  position: absolute;
+  color: red;
+  font-size: 90px;
+  margin-top: 164px;
+  margin-left: 201px;
+  display: none;
+  z-index: 400;
+}
+
+#Spacedude {
+  z-index: -50;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+#CatJamming {
+  position: absolute;
+  left: 1308px;
+  top: 154px;
+  display: none;
+}
